@@ -1,0 +1,287 @@
+/* <link href="https://fonts.googleapis.com/css2?family=Pushster&display=swap" rel="stylesheet"> */
+@import url('https://fonts.googleapis.com/css2?family=Pushster&family=Roboto+Slab:wght@200;500&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+.sidebar{
+    position: absolute;
+    font-family: 'Pushster', cursive;
+    background-color: grey;
+    /* width: 434px; */
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px;
+}
+.sidebar nav li a{
+text-decoration: none;
+color: black;
+}
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    /* background-color: rgb(167, 201, 47);     */
+    height: 50vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto Slab', serif;
+}
+.devinfo{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.hello{
+    font-size: 3em;
+}
+.name{
+    font-size: 3em;
+    font-family: 'Pushster', cursive;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about{
+    font-size: 2.5em;
+}
+.moreabout{
+    font-size: 2em;
+}
+.buttons{
+    
+    margin-top: 35px;
+}
+.buttons button{
+    padding: 15px;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(16, 141, 214);
+    font-weight: bold;
+    margin: 0 3px;
+    cursor: pointer;
+    font-size: large;
+}
+.buttons button:hover{
+    background-color: white;
+    color: darkslateblue;
+}
+.devPic img{
+    height: 50vh;
+    
+}
+.contactform {
+    padding:0 335px;
+    padding-top: 144px;
+    font-family: 'Pushster', cursive;
+}
+.contactform h1{
+    font-family: 'Roboto Slab', serif;
+    /* text-align: center; */
+    /* padding: 12px 0; */
+}
+.contactform form div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+#emailHelp{
+    font-size: 11px;
+    color: darkslateblue;
+    margin: 0 5px;
+    padding : 3px 0 0 0; 
+}
+.contactform form div input{
+    /* width: 20vw; */
+    border-radius: 5px;
+    margin: 6px 0 0 0 ;
+    padding: 3px;
+}
+.contactform form{
+    margin: 0 40px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 4px 0;
+}
+.btn-primary{
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(16, 141, 214);
+    border-color:white;
+    font-weight: bold;
+    margin: 5px 6px;
+    cursor: pointer;
+    font-size: large;
+}
+.btn-primary:hover{
+    background-color: white;
+    border-color: black;
+    color: rgb(16, 141, 214);
+}
+.blogcontainer{
+    margin:30px;
+}
+.blogcontainer h1{
+    font-family: 'Roboto Slab', serif;
+    margin: 10px;
+}
+.blogitem h2{
+    font-family:'Times New Roman', Times, serif;
+    margin: 10px;
+}
+.blogitem p{
+    font-family: 'Pushster', cursive;
+    margin: 10px;
+    
+}
+
+.intro h2{
+    font-family: 'Roboto Slab', serif;
+    margin: 10px;
+}
+.intro p{
+    font-family: 'Pushster', cursive;
+    margin: 10px;
+}
+.skillcontainer{
+    margin: 10px;
+}
+.skillItem{
+    align-items: center;
+    display: flex;
+    font-weight: 900;
+    margin: 15px;
+}
+
+.skillhundred{
+    width: 300px;
+    height: 10px;
+    background-color: red;
+}
+.skilleighty{
+    width: 200px;
+    height: 10px;
+    background-color: rgb(184, 18, 18);
+}
+
+.skillsixty{
+    width: 150px;
+    height: 10px;
+    background-color: rgb(165, 32, 32);
+}
+
+.skillforty{
+    width: 100px;
+    height: 10px;
+    background-color: rgb(179, 79, 79);
+}
+
+.skilltwenty{
+    width: 50px;
+    height: 10px;
+    background-color: rgb(209, 131, 131);
+}
+.mains{
+    margin-left: 300px;
+}
+.mains h1{
+     font-size: 80px; 
+    margin: 62px; 
+    color:violet;
+    text-align: center;
+}
+.mains p{
+    font-size: 50px;
+    color: rgb(22, 2, 22);
+    text-align: center;
+}
+.blocks{
+    display: flex;
+    flex-wrap: wrap;
+}
+.blocks h2{
+    margin: 20px;
+    width: 700px;
+    height: 40vh;
+    text-align: center;
+    padding:20px;
+    background-color: yellow;
+    font-size: 2.2em;
+}
+
+.intro{
+    margin-left: 300px;
+}
+.blogcontainer{
+    margin-left: 300px ;
+}
+ .sidebargo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+ }
+.cross{
+     margin-top: 10px;
+    margin-left: 220px;
+    cursor: pointer;
+} 
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+} 
+.sidebargo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+
+@media (max-width: 1615px) {
+     *{
+/* background-color: chartreuse; */
+    } 
+    .devPic{
+        display: none;
+    }
+    .devinfo{
+        font-size: 10px;
+    }
+    .intro , .blogcontainer , .contactform{
+        margin: 50px 8px;
+    }
+    .buttons{
+        font-size: 10px;
+    }
+    .contactform{
+        width: 400px;
+    }
+    .blocks h2{
+        height: 80vh;
+    }
+/* 
+     .sidebar{
+            transform: translate(-443px, 0px);
+            position: absolute;
+    } */
+     
+}
+
